@@ -7,5 +7,4 @@ build/
 _*.md
 CLAUDE.md
 PLAN.md
-inputs/*.csv
 inputs/*.parquet

@@ -1,0 +1,91 @@
+ba_code,ba_name,subregion_code,subregion_name,latitude,longitude,notes
+CISO,California Independent System Operator,PGAE,Pacific Gas and Electric,37.78,-122.42,Northern/Central California
+CISO,California Independent System Operator,SCE,Southern California Edison,34.05,-118.24,Southern California
+CISO,California Independent System Operator,SDGE,San Diego Gas and Electric,32.72,-117.16,San Diego region
+CISO,California Independent System Operator,VEA,Valley Electric Association,36.00,-115.15,Southern Nevada/Eastern California border
+ERCO,Electric Reliability Council of Texas,COAS,Coast,29.76,-95.37,Houston/Gulf Coast
+ERCO,Electric Reliability Council of Texas,EAST,East,32.35,-94.79,East Texas (Tyler/Longview)
+ERCO,Electric Reliability Council of Texas,FWES,West,31.76,-106.44,El Paso region
+ERCO,Electric Reliability Council of Texas,NCEN,North Central,32.78,-96.80,Dallas-Fort Worth metroplex
+ERCO,Electric Reliability Council of Texas,NRTH,North,33.58,-101.85,Panhandle/South Plains (Lubbock/Amarillo)
+ERCO,Electric Reliability Council of Texas,SCEN,South Central,30.27,-97.74,Austin/San Antonio corridor
+ERCO,Electric Reliability Council of Texas,SOUT,South,27.80,-97.40,Corpus Christi/Rio Grande Valley
+ERCO,Electric Reliability Council of Texas,WEST,West,32.45,-99.73,Abilene/San Angelo region
+PJM,PJM Interconnection,AE,Atlantic City Electric,39.36,-74.43,Southern New Jersey (Atlantic City)
+PJM,PJM Interconnection,AEP,American Electric Power,39.10,-82.98,Southeastern Ohio/West Virginia
+PJM,PJM Interconnection,AP,Appalachian Power,37.27,-81.23,Southwest Virginia/Southeast West Virginia
+PJM,PJM Interconnection,ATSI,American Transmission Systems Inc.,41.50,-81.70,Northeast Ohio (Cleveland)
+PJM,PJM Interconnection,BC,Baltimore Gas and Electric,39.29,-76.61,Baltimore/Maryland
+PJM,PJM Interconnection,CE,Columbus Southern Power,39.96,-82.99,Central Ohio (Columbus)
+PJM,PJM Interconnection,DAY,Dayton Power and Light,39.76,-84.19,Dayton Ohio region
+PJM,PJM Interconnection,DEOK,Duke Energy Ohio/Kentucky,39.10,-84.51,Cincinnati/Northern Kentucky
+PJM,PJM Interconnection,DOM,Dominion Virginia Power,37.54,-77.44,Central Virginia (Richmond)
+PJM,PJM Interconnection,DPL,Delmarva Power,39.16,-75.52,Delaware
+PJM,PJM Interconnection,DUQ,Duquesne Light,40.44,-79.99,Pittsburgh region
+PJM,PJM Interconnection,EKPC,East Kentucky Power Cooperative,37.82,-84.27,Eastern Kentucky (Lexington area)
+PJM,PJM Interconnection,JC,Jersey Central Power and Light,40.06,-74.20,Central New Jersey (Newark area)
+PJM,PJM Interconnection,ME,Metropolitan Edison,40.34,-75.93,Eastern Pennsylvania (Reading/Lehigh)
+PJM,PJM Interconnection,PE,Peco Energy,39.95,-75.17,Philadelphia region
+PJM,PJM Interconnection,PEP,Pepco,38.91,-77.04,Washington DC metro
+PJM,PJM Interconnection,PL,Penn Power,40.90,-79.90,Western Pennsylvania
+PJM,PJM Interconnection,PN,Penelec,40.80,-77.86,Central Pennsylvania (State College)
+PJM,PJM Interconnection,PS,Pennsylvania Power and Light,40.60,-76.48,Central/Eastern Pennsylvania (Harrisburg)
+PJM,PJM Interconnection,RECO,Reliant Energy,39.35,-74.45,Southern New Jersey coast
+NYIS,New York Independent System Operator,ZONA,Zone A,42.65,-73.75,Capital District (Albany)
+NYIS,New York Independent System Operator,ZONB,Zone B,42.09,-76.05,Southern Tier (Binghamton)
+NYIS,New York Independent System Operator,ZONC,Zone C,43.05,-76.15,Central New York (Syracuse)
+NYIS,New York Independent System Operator,ZOND,Zone D,44.97,-74.70,Northern New York (Plattsburgh/Massena)
+NYIS,New York Independent System Operator,ZONE,Zone E,43.16,-77.61,Western New York (Rochester)
+NYIS,New York Independent System Operator,ZONF,Zone F,42.89,-78.88,Western New York (Buffalo)
+NYIS,New York Independent System Operator,ZONG,Zone G,40.78,-73.97,New York City
+NYIS,New York Independent System Operator,ZONH,Zone H,40.73,-73.94,Lower Hudson Valley (NYC suburbs)
+NYIS,New York Independent System Operator,ZONI,Zone I,41.16,-73.86,Upper Hudson Valley (Westchester/Rockland)
+NYIS,New York Independent System Operator,ZONJ,Zone J,40.69,-73.80,Long Island
+NYIS,New York Independent System Operator,ZONK,Zone K,41.70,-74.08,Mid-Hudson Valley
+ISNE,ISO New England,4001,Connecticut,41.76,-72.68,Connecticut
+ISNE,ISO New England,4002,Maine,43.66,-70.27,Maine (Portland/Brunswick)
+ISNE,ISO New England,4003,Massachusetts,42.36,-71.06,Eastern Massachusetts (Boston)
+ISNE,ISO New England,4004,New Hampshire,43.20,-71.54,New Hampshire (Concord)
+ISNE,ISO New England,4005,Rhode Island,41.82,-71.41,Rhode Island (Providence)
+ISNE,ISO New England,4006,Vermont,44.26,-72.58,Vermont (Montpelier/Burlington)
+ISNE,ISO New England,4007,Western Massachusetts,42.10,-72.59,Western Massachusetts (Springfield)
+ISNE,ISO New England,4008,Northeast Massachusetts,42.52,-70.89,Northeast Massachusetts (North Shore)
+MISO,Midcontinent Independent System Operator,0001,Minnesota / Dakotas,44.98,-93.27,Minneapolis-St. Paul region
+MISO,Midcontinent Independent System Operator,0004,Iowa / Minnesota,41.59,-93.62,Des Moines / Iowa region
+MISO,Midcontinent Independent System Operator,0006,Illinois / Indiana,40.70,-89.40,Central Illinois (Peoria/Bloomington)
+MISO,Midcontinent Independent System Operator,0027,Michigan,42.33,-83.05,Detroit / Michigan
+MISO,Midcontinent Independent System Operator,0035,Louisiana / Mississippi,30.50,-91.15,Baton Rouge region
+MISO,Midcontinent Independent System Operator,8910,Arkansas / Missouri,38.63,-90.20,St. Louis / Missouri-Arkansas
+SWPP,Southwest Power Pool,CSWS,Empire District Electric,37.08,-94.51,Southwest Missouri (Joplin)
+SWPP,Southwest Power Pool,EDE,Empire District Electric - Eastern,38.75,-96.50,Central Kansas
+SWPP,Southwest Power Pool,GRDA,Grand River Dam Authority,36.31,-94.78,Northeast Oklahoma (Grand Lake)
+SWPP,Southwest Power Pool,INDN,Indiana Municipal Power Agency,39.77,-86.16,Indiana (Indianapolis area)
+SWPP,Southwest Power Pool,KACY,Kansas City Power and Light,39.10,-94.58,Kansas City metro
+SWPP,Southwest Power Pool,KCPL,Kansas City Power and Light,39.10,-94.58,Kansas City metro (duplicate of KACY)
+SWPP,Southwest Power Pool,LES,Lincoln Electric System,40.81,-96.70,Lincoln Nebraska
+SWPP,Southwest Power Pool,MPS,Minnesota Power,46.79,-92.10,Northern Minnesota (Duluth)
+SWPP,Southwest Power Pool,NPPD,Nebraska Public Power District,41.13,-100.77,Western/Central Nebraska
+SWPP,Southwest Power Pool,OKGE,Oklahoma Gas and Electric,35.47,-97.52,Oklahoma City region
+SWPP,Southwest Power Pool,OPPD,Omaha Public Power District,41.26,-95.94,Omaha / Eastern Nebraska
+SWPP,Southwest Power Pool,SECI,Securities and Exchange Comm - I,38.95,-94.67,Kansas City metro area
+SWPP,Southwest Power Pool,SPRM,Source Power,36.97,-94.34,Southeast Kansas / Southwest Missouri
+SWPP,Southwest Power Pool,SPS,Southwestern Public Service,35.20,-101.83,Amarillo / Texas Panhandle
+SWPP,Southwest Power Pool,WAUE,Western Area Power - Upper East,43.55,-96.70,South Dakota (Sioux Falls)
+SWPP,Southwest Power Pool,WFEC,Western Farmers Electric Cooperative,35.47,-98.00,Southwest Oklahoma
+SWPP,Southwest Power Pool,WR,Westar Energy,38.88,-95.83,Topeka / Eastern Kansas
+SWPW,Southwest Power Pool West,PRPA,Platte River Power Authority,40.59,-105.08,Northern Colorado (Fort Collins)
+SWPW,Southwest Power Pool West,WACM,Western Area Power - Mountain,39.74,-104.99,Colorado Front Range (Denver)
+SWPW,Southwest Power Pool West,WAUW,Western Area Power - Upper Plains,44.79,-106.97,Wyoming / Western Dakotas
+PNM,Public Service Company of New Mexico,ACMA,Acoma-Laguna,35.05,-107.67,Acoma/Laguna Pueblos (Grants area)
+PNM,Public Service Company of New Mexico,CYGA,City of Gallup,35.53,-108.74,Gallup New Mexico
+PNM,Public Service Company of New Mexico,FREP,Four Corners,36.81,-108.43,Farmington / Four Corners region
+PNM,Public Service Company of New Mexico,JICA,Jicarilla Apache,36.72,-106.77,Jicarilla Apache Nation (Dulce)
+PNM,Public Service Company of New Mexico,KAFB,Kirtland Air Force Base,35.04,-106.61,Albuquerque (Kirtland AFB)
+PNM,Public Service Company of New Mexico,KCEC,Kit Carson Electric Cooperative,36.41,-105.57,Taos / Northern New Mexico
+PNM,Public Service Company of New Mexico,LAC,Los Alamos County,35.88,-106.30,Los Alamos
+PNM,Public Service Company of New Mexico,NTUA,Navajo Tribal Utility Authority,36.12,-109.55,Navajo Nation (Window Rock area)
+PNM,Public Service Company of New Mexico,PNM,Public Service Company of New Mexico,35.08,-106.65,Albuquerque / Central New Mexico
+PNM,Public Service Company of New Mexico,TSGT,Tri-State Generation - Tucumcari,35.17,-103.72,Tucumcari / Eastern New Mexico
+BHBA,Basin Electric Power Cooperative,BASI,Basin Electric,46.81,-100.78,Bismarck ND / Western North Dakota
+BHBA,Basin Electric Power Cooperative,SDE,Butte Electric,44.30,-100.35,Northern Hills / Western South Dakota
+BHBA,Basin Electric Power Cooperative,WYE,Wyrulec,42.87,-104.63,Eastern Wyoming
