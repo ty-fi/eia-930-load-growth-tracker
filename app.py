@@ -530,7 +530,7 @@ def render_chart_view(level_df: pd.DataFrame, level: str):
     st.plotly_chart(fig, use_container_width=True)
 
     # Full sortable table with row-click toggle
-    _render_full_table(level_df, granularity, chart_metric, level)
+    _render_full_table(level_df, granularity, chart_metric)
 
 
 def _render_quarterly_summary(sel_df: pd.DataFrame, chart_metric: str):
@@ -629,16 +629,10 @@ def _render_full_table(
     level_df: pd.DataFrame,
     granularity: str,
     chart_metric: str,
-    level: str,
 ):
     """Full sortable table showing all geographies and their metrics."""
     st.subheader("All Geographies")
     st.caption("Click column headers to sort.")
-
-    # Clear stored table state when control scheme changes (re-apply default sort)
-    scheme_sig = (level, granularity, chart_metric)
-    if st.session_state.get("_table_scheme_sig") != scheme_sig:
-        st.session_state["_table_scheme_sig"] = scheme_sig
 
     base_cols = ["entity_id", "display_name_full", "entity_type"]
     col_rename = {"entity_id": "ID", "display_name_full": "Name", "entity_type": "Type"}
@@ -703,18 +697,12 @@ def _render_full_table(
     display_rename = {**col_rename, "parent": "Parent", **data_rename}
     display_df = table_df[display_cols].rename(columns=display_rename).reset_index(drop=True)
 
-    # Format numeric columns for display
-    fmt_map = {display_rename.get(c, c): _fmt for c in data_cols if c in table_df.columns}
+    # Sort by most recent column descending
+    if data_cols:
+        last_col = display_rename.get(data_cols[-1], data_cols[-1])
+        display_df = display_df.sort_values(last_col, ascending=False, na_position="last").reset_index(drop=True)
 
-    # Render with data_editor for built-in column-header sorting
-    st.data_editor(
-        display_df,
-        column_config={c: st.column_config.NumberColumn(c, format="%.2f") for c in display_rename.values() if c in fmt_map},
-        use_container_width=True,
-        height=600,
-        hide_index=True,
-        disabled=True,
-    )
+    st.dataframe(display_df, use_container_width=True, height=600, hide_index=True)
 
 
 if __name__ == "__main__":
