@@ -512,14 +512,6 @@ def render_chart_view(level_df: pd.DataFrame, level: str):
 
     # Summary stats
     sel_df = valid[valid["entity_id"].isin(selected_ids)]
-    # Dynamic chart title
-    unit = "GW" if chart_metric == "Growth vs Baseline (GW)" else "%" if chart_metric == "Growth vs Baseline (%)" else "GW"
-    gran_label = "Quarter" if granularity == "Quarterly" else "Year"
-    st.markdown(
-        f"<h3 style='text-align: center;'>Load Growth ({unit}) Since April 2022–March 2023, by {gran_label}</h3>",
-        unsafe_allow_html=True,
-    )
-
     if granularity == "Quarterly":
         _render_quarterly_summary(sel_df, chart_metric)
         fig = build_line_chart(level_df, chart_metric, list(selected_ids))
@@ -527,9 +519,17 @@ def render_chart_view(level_df: pd.DataFrame, level: str):
         _render_yearly_summary(sel_df, chart_metric)
         fig = build_yearly_chart(level_df, chart_metric, list(selected_ids))
 
+    # Dynamic chart title (immediately above the graph)
+    unit = "GW" if chart_metric == "Growth vs Baseline (GW)" else "%" if chart_metric == "Growth vs Baseline (%)" else "GW"
+    gran_label = "Quarter" if granularity == "Quarterly" else "Year"
+    st.markdown(
+        f"<h3 style='text-align: center;'>Load Growth ({unit}) Since April 2022–March 2023, by {gran_label}</h3>",
+        unsafe_allow_html=True,
+    )
+
     st.plotly_chart(fig, use_container_width=True)
 
-    # Full sortable table with row-click toggle
+    # Full sortable table
     _render_full_table(level_df, granularity, chart_metric)
 
 
